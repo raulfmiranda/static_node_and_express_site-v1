@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Project Zero",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt iaculis aliquet. Donec eget est sit amet risus laoreet tristique nec id ipsum.",
+            "technologies": [ "express", "pug" ],
+            "live_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
+            "github_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
+            "image_urls": [
+                "static/images/project1200x550.jpg",
+                "static/images/project550x550.jpg",
+                "static/images/project550x550.jpg",
+                "static/images/project550x550.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Project One",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt iaculis aliquet. Donec eget est sit amet risus laoreet tristique nec id ipsum.",
+            "technologies": [ "express", "pug" ],
+            "live_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
+            "github_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
+            "image_urls": [
+                "static/images/project1200x550.jpg",
+                "static/images/project550x550.jpg",
+                "static/images/project550x550.jpg",
+                "static/images/project550x550.jpg"
+            ]
+        }
+    ]
+}

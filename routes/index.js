@@ -1,36 +1,31 @@
 const express = require('express');
 const router = express.Router();
-const { data } = require('../data/flashcardData.json');
-// const cards = data.cards;
-const { cards } = data;
-
-const colors = [
-    'red',
-    'white',
-    'black'
-];
+const data = require('../data.json');
+const { projects } = data;
 
 router.get('/', (req, res) => {
+    res.locals.projects = projects;
     res.render('index');
 });
 
-router.post('/hello', (req, res) => {
-    res.cookie('username', req.body.username);
-    // res.clearCookie('username');
-    // res.redirect('/');
-    res.render('hello', { name: req.body.username, colors: colors } );
+router.get('/about', (req, res) => {
+    res.render('about');
 });
 
-// hello/0?side=question
-router.get('/hello/:id', (req, res) => {
-    // res.locals.variable2 = "This is variable2 value.";
-    // res.render('hello', { variable1: 'This is variable1 value.', colors: colors });
-    // res.render('index', { variable1: 'This is variable1 value.', hint: 'This is a hint' });
-    const id = req.params.id;
-    const { side } = req.query;
-    const text = cards[id][side];
+router.get('/project', (req, res) => {
+    const project = projects[0];
+    res.locals.project = project;
+    res.render('project');
+});
 
-    res.render('hello', { name: req.cookies.username, colors: colors, text: text, id: id } );
+router.get('/project/:id', (req, res) => {
+    let id = req.params.id;
+    if (!id) {
+        id = 0;
+    }
+    const project = projects[id];
+    res.locals.project = project;
+    res.render('project');
 });
 
 module.exports = router;

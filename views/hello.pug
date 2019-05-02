@@ -1,0 +1,20 @@
+if name
+    h3 Hello #{name}
+else
+    h4= text
+    form(action='/hello', method='post')
+        label Enter your name:
+            input(type='text', name='username')
+        button(type='submit') Submit
+
+a(href=`${id}?side=question`)= 'Go to question'
+
+if hint
+    p Hint: #{hint}
+else
+    p No Hint
+    h4= variable1
+    h4= variable2
+    ul
+    each color in colors
+        li= color

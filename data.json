@@ -2,30 +2,44 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Project Zero",
+            "project_name": "Random Quote Generator",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt iaculis aliquet. Donec eget est sit amet risus laoreet tristique nec id ipsum.",
             "technologies": [ "express", "pug" ],
             "live_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
             "github_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
             "image_urls": [
-                "static/images/project1200x550.jpg",
-                "static/images/project550x550.jpg",
-                "static/images/project550x550.jpg",
-                "static/images/project550x550.jpg"
+                "/static/images/random_quote_generator0.jpg",
+                "/static/images/random_quote_generator0.jpg",
+                "/static/images/random_quote_generator1.jpg",
+                "/static/images/random_quote_generator2.jpg"
             ]
         },
         {
             "id": 1,
-            "project_name": "Project One",
+            "project_name": "List Pagination and Filtering",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt iaculis aliquet. Donec eget est sit amet risus laoreet tristique nec id ipsum.",
             "technologies": [ "express", "pug" ],
             "live_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
             "github_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
             "image_urls": [
-                "static/images/project1200x550.jpg",
-                "static/images/project550x550.jpg",
-                "static/images/project550x550.jpg",
-                "static/images/project550x550.jpg"
+                "/static/images/list_pagination_and_filtering0.jpg",
+                "/static/images/list_pagination_and_filtering0.jpg",
+                "/static/images/list_pagination_and_filtering1.jpg",
+                "/static/images/list_pagination_and_filtering2.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt iaculis aliquet. Donec eget est sit amet risus laoreet tristique nec id ipsum.",
+            "technologies": [ "express", "pug" ],
+            "live_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
+            "github_link": "https://github.com/raulfmiranda/static_node_and_express_site-v1",
+            "image_urls": [
+                "/static/images/interactive-form0.jpg",
+                "/static/images/interactive-form0.jpg",
+                "/static/images/interactive-form1.jpg",
+                "/static/images/interactive-form2.jpg"
             ]
         }
     ]
